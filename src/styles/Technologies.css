@@ -1,0 +1,23 @@
+@import "slick-carousel/slick/slick-theme.css";
+@import "slick-carousel/slick/slick.css";
+
+#technologies {
+  max-width: 80vw;
+  margin: 3rem auto;
+  height: auto; 
+}
+
+.tech-icon {
+  margin: 30px 10px;
+}
+
+.tech-icon img {
+  width: auto;
+  height: auto;
+ }
+
+
+.slick-dots li button:before{
+  font-size: 15px !important;
+  color:var(--color-white) !important;
+}

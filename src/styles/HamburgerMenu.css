@@ -1,0 +1,18 @@
+.menu-hamburger{
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .menu-hamburger{
+    display: block;
+  }
+
+  .menu-hamburger.open .menu-icon{
+    display: none;
+  }
+
+  .close-button{
+    background-color: var(--color-dark-nude);
+    }
+
+}

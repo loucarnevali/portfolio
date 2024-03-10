@@ -1,0 +1,29 @@
+.see-more{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  font-family: var(--font-family-2);
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  color: var(--color-brown);
+  margin-bottom: 2rem ;
+}
+
+.see-more p{
+margin-right: .3rem;
+}
+
+.see-more img {
+  width: 15px;
+  transition: transform 0.3s ease; 
+}
+
+.see-more:hover img {
+  transform: translateX(5px); /
+}
+
+@media (max-width: 780px) {
+  .see-more {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "home": "Início",
+  "about": "Sobre",
+  "projects": "Projetos",
+  "contact": "Contato",
+
+  "welcome": "Bem-vindo(a)",
+  "homeIntro": "Olá! Sou uma desenvolvedora de software brasileira que cria soluções elegantes e simples.",
+  "homeDescription": "Trabalhei como nutricionista por 11 anos até me encantar pela tecnologia em 2022. Desde então, minha jornada tem sido marcada pela prática constante, onde aprimoro meus conhecimentos, testo soluções, aprendo com os erros e, assim, evoluo ao longo do caminho. Atualmente estou matriculada no curso de Análise e Desenvolvimento de Sistemas.",
+
+  "resumeButton": "Currículo",
+
+  "skillsIntro": "Além das hard skills...",
+  "skillsDescription": "Sou determinada, criativa e apaixonada por encontrar soluções para desafios. Minha jornada profissional me permitiu adquirir inúmeras habilidades:",
+  "communicationTranslation": "Comunicativa",
+  "fastPacedTranslation": "Dinâmica",
+  "hardWorkingTranslation": "Dedicada",
+  "teamWorkTranslation": "Trabalho em Equipe",
+  "creativityTranslation": "Criativa",
+  "proactiveTranslation": "Proativa",
+  "attentionTranslation": "Atenciosa aos Detalhes",
+  "cleanCodeTranslation": "Código Limpo",
+  "responsivenessTranslation": "Responsividade",
+
+  "animaisMarinhosProject": "Animais Marinhos",
+  "newsletterProject": "Assinatura de Newsletter",
+  "ticTacToeProject": "Jogo da Velha",
+  "todoListProject": "Lista de Tarefas",
+  "drumKitProject": "Jogo de Bateria",
+
+  "seeMoreProjectsButton": "Veja todos os projetos",
+  "backToHomeButton": "Voltar ao Início",
+
+  "aboutMe": "MAIS SOBRE MIM",
+  "aboutIntro": "Sou uma desenvolvedora fullstack construindo aplicações web que contribuem para o sucesso do produto como um todo.",
+  "aboutDescription": "Sempre gostei de simplificar problemas complexos, criando soluções simples e criativas. Quando não estou programando, estou cozinhando, me exercitando, lendo um livro ou assistindo a um filme. E junto a tudo isso, você ainda me encontrará sendo mãe e educando duas lindas meninas. Além disso, gosto de compartilhar conteúdo na plataforma Medium sobre o que estou aprendendo, para ajudar outras pessoas na comunidade de desenvolvedores. Sinta-se à vontade para se conectar ou me seguir no LinkedIn e no Medium. Estou aberta a oportunidades de emprego onde eu possa contribuir, aprender e crescer. Se você tem uma oportunidade que combine com minhas habilidades, entre em contato comigo.",
+
+  "connectTitle": "vamos nos conectar",
+  "connectDescription": "Fique à vontade para me enviar uma mensagem se precisar de algo ou apenas para bater um papo.",
+
+  "rightsReserved": "Todos os Direitos Reservados."
+}

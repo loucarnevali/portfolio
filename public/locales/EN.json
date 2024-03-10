@@ -1,0 +1,40 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "welcome": "Welcome",
+  "homeIntro": "Hi, I'm a developer based in Brazil, and I code beautifully simple things.",
+  "homeDescription": "I worked as a nutritionist for 11 years and in 2022 I became enchanted by technology. Since then, my focus has always been on practice so I can test, make mistakes, get things right, improve and evolve faster. Currently I'm enrolled systems analysis and development course.",
+
+  "resumeButton": "Resume",
+
+  "skillsIntro": "Beside the hard skills...",
+  "skillsDescription": "I'm determined, visionary, and passionate about finding creative solutions to the challenges I face.My professional journey has provided me many skills:",
+  "communicationTranslation": "Communication",
+  "fastPacedTranslation": "Fast-Paced",
+  "hardWorkingTranslation": "Hard Working",
+  "teamWorkTranslation": "Team Work",
+  "creativityTranslation": "Creativity",
+  "proactiveTranslation": "Proactive",
+  "attentionTranslation": "Attention to Details",
+  "cleanCodeTranslation": "Clean Code",
+  "responsivenessTranslation": "Responsiveness",
+
+  "animaisMarinhosProject": "Sea Animals",
+  "newsletterProject": "Signup Newsletter",
+  "ticTacToeProject": "Tic-Tac-Toe Game",
+  "todoListProject": "To-do List",
+  "drumKitProject": "Drum Kit ",
+
+  "seeMoreProjectsButton": "See all the projects",
+  "backToHomeButton": "Back to Home",
+
+  "aboutMe": "MORE ABOUT ME",
+  "aboutIntro": "I'm a fullstack developer building Web Applications that leads to the success of the overall product",
+  "aboutDescription": "Since always, I've enjoyed turning complex problems into simple and creative solutions. When I'm not coding, you'll find me cooking, exercising, reading or watching a movie. And along with all of this, you will still find me 'mothering' and raising two beautiful girls. I also like sharing content in Medium Plataform related to the stuff that I'm learning so it can help other people of the dev community. Feel free to connect or follow me on my Linkedin and on Medium. I'm open to job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+  "connectTitle": " let's connect",
+  "connectDescription": "Feel free to drop me a line if you need anything, or simply have a chat.",
+  "rightsReserved": "All Rights Reserved."
+}

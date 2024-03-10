@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1a",
+    "icon": "/img/skills-icons/bootstrap.svg",
+    "altText": "BootStrap Icon"
+  },
+  {
+    "id": "2a",
+    "icon": "/img/skills-icons/css3.svg",
+    "altText": "CSS3 Icon"
+  },
+  {
+    "id": "3a",
+    "icon": "/img/skills-icons/express-js.svg",
+    "altText": "Express Icon"
+  },
+  {
+    "id": "4a",
+    "icon": "/img/skills-icons/figma.svg",
+    "altText": "Figma Icon"
+  },
+  {
+    "id": "5a",
+    "icon": "/img/skills-icons/git.svg",
+    "altText": "Git Icon"
+  },
+  {
+    "id": "6a",
+    "icon": "/img/skills-icons/html5.svg",
+    "altText": "HTML5 Icon"
+  },
+  {
+    "id": "7a",
+    "icon": "/img/skills-icons/js.svg",
+    "altText": "JavaScript Icon"
+  },
+
+  {
+    "id": "8a",
+    "icon": "/img/skills-icons/node.svg",
+    "altText": "Node Icon"
+  },
+  {
+    "id": "9a",
+    "icon": "/img/skills-icons/postgresql.svg",
+    "altText": "PostgreSQL Icon"
+  },
+  {
+    "id": "10a",
+    "icon": "/img/skills-icons/react.svg",
+    "altText": "React Icon"
+  },
+  {
+    "id": "11a",
+    "icon": "/img/skills-icons/mongodb.svg",
+    "altText": "MongoDB Icon"
+  }
+]

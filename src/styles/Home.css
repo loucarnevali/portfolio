@@ -1,0 +1,136 @@
+.home{
+  display: flex;
+  justify-content: right;
+}
+
+.home-bg{
+  text-align:center;
+  margin: 10rem auto 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-bg p {
+  font-family: var(--font-family-2);
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.home-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.home-card{
+  background-color: var(--color-white);
+  max-width: 50%;
+  padding: 3%;
+  margin-left: 20rem;
+  z-index: 50;
+  position: relative;
+}
+
+.profile-img{
+  position: absolute; 
+  z-index: 1; 
+  top: -120px; 
+  left: 17%;
+}
+
+.profile-img img{
+  width: 350px;
+}
+
+.home-card h2 {
+  font-size: 1.5rem;
+  font-family: var(--font-family-1);
+  margin-bottom: 1rem;
+  color: var(--color-brown);
+}
+
+.home-card p{
+  font-size: 1.0rem;
+  font-family: var(--font-family-2);
+  color: var(--color-brown);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.home-items{
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* background-color: blueviolet; */
+} 
+
+.home-icons ul{
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.home-icons .social-icons img {
+  width: 20px;
+  height: 20px;
+  margin: .5rem;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 930px){
+  .profile-img{
+    left: 10%;
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .home-bg{
+    margin-bottom: 24rem;
+  }
+
+  .home-bg p{
+    text-align: center;
+  }
+
+  .home-wrapper{
+    flex-direction: column;
+    align-items: center;
+    /* margin: auto; */
+  }
+
+  .profile-img {
+    /* position: static; */
+    /* margin-bottom: 20px; */
+    width: 200px;
+    top: -330px;
+    left: auto;
+    z-index: 100;
+  }
+
+  .home-card {
+    /* position: static; */
+    margin:0px auto auto; 
+    max-width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 525px){
+  .profile-img{
+    top: -350px;
+}
+}
+
+@media screen and (max-width: 430px){
+  .home-items{
+    flex-direction: column; 
+    align-items:flex-start;
+  }
+
+  .home-button{
+    margin-bottom: 10px;
+  }
+}

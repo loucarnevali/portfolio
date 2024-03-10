@@ -1,0 +1,124 @@
+.project-card{
+ display: flex;
+ margin: auto;
+ width: auto;
+}
+
+.project-item{
+  width: 500px;
+  height: 550px;
+  margin-bottom: 5rem;
+}
+
+.project-item h1{
+  font-family: var(--font-family-2);
+  letter-spacing: .5px;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.project-item ul li {
+  font-family: var(--font-family-1);
+  font-size: .8rem;
+  letter-spacing: .5px;
+  background-color: var(--color-light-nude);
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  padding: 7px 15px;
+  border-radius: 50px;
+}
+
+.buttons{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.buttons a{
+  font-family: var(--font-family-1);
+  color: var(--color-dark-brown);
+  margin-left: 10px;
+  font-size: 1rem;
+  letter-spacing: .8px;
+}
+
+.github-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark-brown) !important; 
+  background-color: var(--color-light-gray) !important;
+  margin-right: 20px;
+  border: 2px solid var(--color-dark-brown);
+  padding: 10px 40px;
+}
+
+.github-button:hover{
+  background-color: var(--color-dark-brown) !important;
+} 
+
+.github-button:hover img{
+  filter: brightness(0) invert(1); 
+  
+}
+
+.github-button:hover a {
+  color: white !important; 
+}
+
+.live-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-light-nude);
+  border: 2px solid transparent;
+  padding: 10px 40px;
+}
+
+.live-button:hover{
+  background-color: #B8ADA5;
+}
+
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .project-card{
+    width: 100%;
+
+  }
+
+  .project-item{
+    margin: auto;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .project-item{
+    width: auto;
+    margin: auto 30px 70px;
+  }
+
+  .project-item h1{
+    font-size: 1.5rem;
+  }
+
+  .project-item ul li{
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+  }
+
+  .buttons img{
+    width: 20px;
+  }
+
+  .github-button, .live-button{
+    padding: 5px 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .project-item{
+    width: auto;
+  }
+}
