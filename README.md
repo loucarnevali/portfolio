@@ -30,7 +30,7 @@ As a developer, I've built this personal portfolio website using React (with Vit
 
 ## Deployment
 
-This portfolio is proudly hosted on Vercel, providing a fast and reliable platform for showcasing my work. Dive in and explore the website [here](#)!
+This portfolio is deployed on Vercel, providing a fast and reliable platform for showcasing my work. Dive in and explore the website [here](#)!
 
 ## Contributing
 
