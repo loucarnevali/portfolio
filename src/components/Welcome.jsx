@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { LanguageContext } from './Utils/LanguageContext';
-import '../styles/Home.css';
+import '../styles/Welcome.css';
 
 const Home = () => {
   const { languageData } = useContext(LanguageContext);
@@ -19,7 +19,7 @@ const Home = () => {
       <div className="home-wrapper">
         {/* Profile image */}
         <div className="profile-img">
-          <img src="/img/profile-img.png" alt="" />
+          <img src="/img/perfil1.png" alt="" />
         </div>
 
         <div className="home-card">

@@ -21,3 +21,11 @@
   font-size: 15px !important;
   color:var(--color-white) !important;
 }
+
+/* Responsive */
+@media screen and (max-width: 740px) {
+  .tech-icon img {
+    width: 50px;
+    height: 50px;
+   }
+}

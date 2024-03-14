@@ -7,7 +7,11 @@ const About = () => {
 
   return (
     <section className="about-card" id="about-section">
-      <img className="resume-img" src="/img/photo-cv.jpg" alt="Profile Photo" />
+      <img
+        className="resume-img"
+        src="/img/profile-round.png"
+        alt="Profile Photo"
+      />
       <h1 className="subtitle">{languageData.about}</h1>
 
       {/* Resume button */}

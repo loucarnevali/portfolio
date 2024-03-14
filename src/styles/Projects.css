@@ -1,7 +1,7 @@
 .projects-section{
   background-color: var(--color-light-gray);
+  margin: auto;
 }
-
 
 /* Responsive */
 @media (max-width: 780px) {

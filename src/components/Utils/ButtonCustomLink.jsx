@@ -18,7 +18,7 @@ const ButtonCustomLink = ({ to, buttonText }) => {
 //PropTypes Validation
 ButtonCustomLink.propTypes = {
   to: PropTypes.string.isRequired,
-  buttonText: PropTypes.string.isRequired,
+  buttonText: PropTypes.string,
 };
 
 export default ButtonCustomLink;

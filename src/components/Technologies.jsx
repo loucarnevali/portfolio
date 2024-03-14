@@ -30,14 +30,6 @@ const Technologies = () => {
           slidesToScroll: 1,
         },
       },
-
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
     ],
   };
 

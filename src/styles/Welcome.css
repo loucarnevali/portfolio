@@ -1,11 +1,11 @@
 .home{
   display: flex;
-  justify-content: right;
-}
+  justify-content: center;
+  }
 
 .home-bg{
   text-align:center;
-  margin: 10rem auto 18rem;
+  margin: 10rem auto 13rem;
   display: flex;
   flex-direction: column;
 }
@@ -22,26 +22,22 @@
   justify-content: center;
   position: relative;
   margin: auto;
-}
-
-.home-card{
-  background-color: var(--color-white);
-  max-width: 50%;
-  padding: 3%;
-  margin-left: 20rem;
-  z-index: 50;
-  position: relative;
+  max-width: 95%;
 }
 
 .profile-img{
   position: absolute; 
   z-index: 1; 
-  top: -120px; 
-  left: 17%;
+  left: 7%;
 }
 
-.profile-img img{
-  width: 350px;
+.home-card{
+  background-color: var(--color-white);
+  max-width: 60%;
+  padding: 3rem 2rem;
+  margin-left: 400px;
+  z-index: 50;
+  position: relative;
 }
 
 .home-card h2 {
@@ -60,15 +56,13 @@
 }
 
 .home-items{
-display: flex;
-align-items: center;
-justify-content: space-between;
-/* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 } 
 
 .home-icons ul{
   display: flex;
-  /* background-color: aqua; */
 }
 
 .home-icons .social-icons img {
@@ -79,14 +73,25 @@ justify-content: space-between;
 
 
 /* Responsive */
-@media screen and (max-width: 930px){
+@media screen and (max-width: 1050px){
   .profile-img{
-    left: 10%;
-    top: -100px;
+    left: 0%;
   }
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 900px) {
+  .profile-img{
+    width: 300px;
+  }
+
+  .home-card{
+    margin-left: 300px;
+    max-width: 65%;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
   .home-bg{
     margin-bottom: 24rem;
   }
@@ -98,33 +103,40 @@ justify-content: space-between;
   .home-wrapper{
     flex-direction: column;
     align-items: center;
-    /* margin: auto; */
   }
 
   .profile-img {
-    /* position: static; */
-    /* margin-bottom: 20px; */
-    width: 200px;
-    top: -330px;
+    top: -410px;
     left: auto;
     z-index: 100;
   }
 
   .home-card {
-    /* position: static; */
     margin:0px auto auto; 
-    max-width: 90%;
+    max-width: 100%;
+    padding: 2rem;
+
   }
 
 }
+@media screen and (max-width: 780px){
+  .home-wrapper{
+    max-width: 100%;
+  }
+}
 
-@media screen and (max-width: 525px){
-  .profile-img{
+/* @media screen and (max-width: 550px){
+  .home-card {
+    padding: 2rem;
+  }
+} */
+
+@media screen and (max-width: 460px){
+  .profile-img {
+    width: 250px;
     top: -350px;
-}
-}
+  }
 
-@media screen and (max-width: 430px){
   .home-items{
     flex-direction: column; 
     align-items:flex-start;

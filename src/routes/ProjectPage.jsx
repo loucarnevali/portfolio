@@ -32,8 +32,8 @@ const ProjectPage = () => {
   useEffect(() => {
     const options = {
       strings: ['Coding', 'Innovation', 'Gastronomy', 'Traveling'],
-      typeSpeed: 300,
-      backSpeed: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
       loop: true,
     };
 

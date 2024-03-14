@@ -7,7 +7,7 @@
 
 .about-items {
   background-color:var(--color-white);
-  max-width: 50%;
+  width: 65%;
   margin: 5rem auto;
   text-align: start;
   padding: 30px 80px;
@@ -30,10 +30,10 @@
 
 .resume-img{
   position: absolute;
-  top: 30%; 
-  left: 18%; 
-  width: 8%; 
-  height: 18%; 
+  top: 35%; 
+  left: 10%; 
+  width: 150px; 
+  height: 150px; 
   border-radius: 50%;
   z-index: 1; 
 }
@@ -41,12 +41,15 @@
 /* Responsive */
 @media screen and (max-width: 1020px) {
   .about-items {
-    max-width: 70%;
+    width: 75%;
     padding: 30px;
   }
 
   .resume-img{
-    left: 8%;
+    width: 110px; 
+    height: 110px; 
+    left: 3%;
+    top: 35%;
   }
 
 }
@@ -59,19 +62,20 @@
   .about-items p {
     font-size: 0.9rem;
   }
+}
 
-  .resume-img {
-    width: 10%;
-    height: 15%;
+@media screen and (max-width: 840px){
+  .resume-img{
+    left: 1%;
   }
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 740px){
   .resume-img{
  display: none;
   }
 
   .about-items{
-   max-width: 100%;
+  width: 100%;
   }
 }
