@@ -35,9 +35,12 @@
 }
 
 .buttons a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-family-1);
   color: var(--color-dark-brown);
-  margin-left: 10px;
+  gap: 10px;
   font-size: 1rem;
   letter-spacing: .8px;
 }
@@ -46,24 +49,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-dark-brown) !important; 
-  background-color: var(--color-light-gray) !important;
+  color: var(--color-dark-brown); 
+  background-color: var(--color-light-gray);
   margin-right: 20px;
   border: 2px solid var(--color-dark-brown);
   padding: 10px 40px;
 }
 
 .github-button:hover{
-  background-color: var(--color-dark-brown) !important;
+  background-color: var(--color-dark-brown);
+  color: var(--color-white) !important;
 } 
 
 .github-button:hover img{
   filter: brightness(0) invert(1); 
-  
-}
-
-.github-button:hover a {
-  color: white !important; 
 }
 
 .live-button{

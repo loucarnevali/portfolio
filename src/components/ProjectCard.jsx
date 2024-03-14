@@ -17,19 +17,25 @@ const ProjectCard = ({ project }) => {
 
         {/* Buttons*/}
         <div className="buttons">
-          <button className="github-button">
+          <a
+            href={project.github}
+            className="github-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/img/projects-img/github.svg" alt="Github Icon" />
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              Demo
-            </a>
-          </button>
+            Demo
+          </a>
 
-          <button className="live-button">
+          <a
+            href={project.website}
+            className="live-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/img/projects-img/live.svg" alt="Live Icon" />
-            <a href={project.website} target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-          </button>
+            Live
+          </a>
         </div>
       </div>
     </div>
