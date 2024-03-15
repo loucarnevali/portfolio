@@ -13,7 +13,10 @@ const AboutSection = () => {
       <div className="about-container">
         <h1 className="subtitle"> {languageData.about}</h1>
 
-        <AboutCard />
+        <AboutCard
+          intro={languageData.aboutIntroResume}
+          description={languageData.aboutDescriptionResume}
+        />
       </div>
       <ButtonCustomLink to="/about" buttonText={languageData.moreAboutButton} />
     </div>

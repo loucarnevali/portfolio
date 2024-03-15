@@ -13,7 +13,10 @@ const AboutPage = () => {
       <section id="about-page">
         <h1 className="title"> {languageData.about}</h1>
 
-        <AboutCard />
+        <AboutCard
+          intro={languageData.aboutIntro}
+          description={languageData.aboutDescription}
+        />
         <Education />
       </section>
     </Reveal>

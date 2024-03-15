@@ -75,6 +75,11 @@
     display: none;
   }
 
+  .about-card {
+    padding: 0;
+  }
+
+  
   .about-items{
   width: 100%;
   }
