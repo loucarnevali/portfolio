@@ -1,0 +1,87 @@
+.education-section{
+  background-color: var(--color-dark-nude);
+  margin-top: 3rem;
+  padding: 3rem 0;
+}
+
+.education-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); 
+  gap: 2rem;
+  background-color: var(--color-white);
+  width: 90%;
+  margin: 5rem auto;
+  padding-top: 3rem;
+}
+
+.education-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-light-gray);
+  height: 200px;
+  margin: 3rem;
+  padding: 2rem;
+  flex-basis: calc(40% - .8rem);
+  gap: 1rem;
+}
+
+.education-card p{
+  font-family: var(--font-family-2);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.education-card h3{
+  font-family: var(--font-family-1);
+  font-size: 1.3rem;
+}
+
+.education-card.course, .education-card.idioms{
+  background-color: var(--color-white);
+  border: 2px solid var(--color-dark-brown);
+}
+
+.education-card.course{
+  height: auto;
+  gap: 2rem;
+}
+
+.education-card.idioms{
+  height: 300px;
+}
+
+.about-button-resume{
+  grid-column: 1 / -1; 
+  justify-self: end;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+  .education-section{
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
+  .education-wrapper{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .education-card{
+    margin: 1rem 2rem;
+  }
+
+  .education-card p{
+    font-size: .9rem;
+  }
+
+  .education-card h3{
+    font-size: 1.2rem;
+  }
+
+  .about-button-resume{
+    margin-bottom: 2rem;
+  }
+}

@@ -5,11 +5,7 @@
   margin: 5rem 1rem;
  }
 
- .project-page .subtitle{
-  font-family: var(--font-family-3);
-  font-size: 5rem;
-  font-weight: 300;
-  letter-spacing: .5rem;
+ .project-page .title{
   margin-top: 15rem;
  }
 

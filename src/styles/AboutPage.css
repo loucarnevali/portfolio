@@ -1,0 +1,7 @@
+#about-page .title{
+  margin-top: 15rem;
+ }
+
+ #about-page .about-card{
+  background-color: var(--color-light-gray);
+ }

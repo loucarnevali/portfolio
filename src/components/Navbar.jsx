@@ -21,7 +21,7 @@ const NavBar = () => {
 
   // To scroll to top of page
   const handleScrollToTop = () => {
-    if (pathname === '/' || pathname === '/projects') {
+    if (pathname === '/' || pathname === '/about' || pathname === '/projects') {
       window.scrollTo(0, 0);
     }
   };
@@ -59,7 +59,9 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/#about-section">{languageData.about}</Link>
+            <Link to="/about" onClick={handleScrollToTop}>
+              {languageData.about}
+            </Link>
           </li>
           <li>
             <Link to="/#skills-section">Skills</Link>

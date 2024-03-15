@@ -29,11 +29,31 @@
   "drumKitProject": "Jogo de Bateria",
 
   "seeMoreProjectsButton": "Veja todos os projetos",
+  "moreAboutButton": "Mais sobre mim",
   "backToHomeButton": "Voltar ao Início",
 
   "aboutMe": "MAIS SOBRE MIM",
   "aboutIntro": "Sou uma desenvolvedora fullstack construindo aplicações web que contribuem para o sucesso do produto como um todo.",
   "aboutDescription": "Sempre gostei de simplificar problemas complexos, criando soluções simples e criativas. Quando não estou programando, estou cozinhando, me exercitando, lendo um livro ou assistindo a um filme. E junto a tudo isso, você ainda me encontrará sendo mãe e educando duas lindas meninas. Além disso, gosto de compartilhar conteúdo na plataforma Medium sobre o que estou aprendendo, para ajudar outras pessoas na comunidade de desenvolvedores. Sinta-se à vontade para se conectar ou me seguir no LinkedIn e no Medium. Estou aberta a oportunidades de emprego onde eu possa contribuir, aprender e crescer. Se você tem uma oportunidade que combine com minhas habilidades, entre em contato comigo.",
+
+  "educationTitle": "educação",
+  "bacharelTI": "Tecnólogo",
+  "educationDescriptionTI": "Análise e Desenvolvimento de Sistemas",
+  "educationLocalTI": "Brasil",
+  "bachelorNutri": "Bacharel",
+  "educationDescriptionNutri": "Nutrição",
+  "educationLocalNutri": "Universidade de Cuiabá | Brasil",
+
+  "otherCourses": "Outros Cursos",
+  "reactCourse": "React - O Guia Completo 2023",
+  "supportCourse": "Fundamento do Suporte Técnico",
+  "cs50Course": "CC50 - Ciências da Computação",
+
+  "idiomsTitle": "Idiomas",
+  "portgueseIdiom": "Português / Nativo",
+  "englishIdiom": "Inglês / Intermediário",
+  "spanishIdiom": "Espanhol / Básico",
+  "frenchIdiom": "Francês / Básico",
 
   "connectTitle": "vamos nos conectar",
   "connectDescription": "Fique à vontade para me enviar uma mensagem se precisar de algo ou apenas para bater um papo.",

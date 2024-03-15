@@ -1,0 +1,46 @@
+.resume-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--color-brown);
+  font-family: var(--font-family-1);
+  padding: 10px 30px;
+  width: 150px;
+  font-size: 1rem;
+  border: 1px solid var(--color-dark-brown);
+ }
+
+.resume-button img {
+  width: 50%;
+}
+
+.resume-button:hover{
+  background-color: var(--color-dark-nude);
+  border: 1px solid var(--color-dark-nude);
+  color: var(--color-white);
+}
+
+.resume-button:hover img {
+  filter: brightness(0) invert(1); 
+}
+
+.image-container{
+  width: 30px;
+}
+
+/* Responsive */
+@media (max-width: 740px) {
+  .resume-button{
+    font-size: .8rem;
+  }
+
+  .resume-button img{
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .home-button{
+    margin-bottom: 10px;
+  }
+}

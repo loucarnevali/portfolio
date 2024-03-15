@@ -8,7 +8,6 @@
 }
 
 
-
 @font-face {
   font-family: 'RemineFares';
   src: local('Remine Fares'), url('./fonts/remine-fares.otf') format('truetype');
@@ -77,6 +76,8 @@ button {
   font-weight: 300;
   letter-spacing: .5rem;
   margin-top: 5rem;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 .subtitle{
@@ -96,71 +97,12 @@ button {
   margin-top: 3rem;
 }
 
-/* Resume Button  */
-.resume-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: var(--color-brown);
-  font-family: var(--font-family-1);
-  padding: 10px 30px;
-  width: 150px;
-  font-size: 1rem;
-  border: 1px solid var(--color-dark-brown);
- }
-
-.resume-button img {
-  width: 50%;
-}
-
-.resume-button:hover{
-  background-color: var(--color-dark-nude);
-  border: 1px solid var(--color-dark-nude);
-  color: var(--color-white);
-}
-
-.resume-button:hover img {
-  filter: brightness(0) invert(1); 
-}
-
-.image-container{
-  width: 30px;
-}
-
-/* Social Icons  */
-.social-icons {
-  display: flex;
-  align-items: center;
-  color: var(--color-white);
-  transition: color 0.3s ease;
-  background-color: var(--color-dark-nude);
-  border-radius: 50%;
-  margin: 0.5rem;
-}
-
-.social-icons img {
-  width: 30px;
-  height: 30px;
-  margin: 1rem;
-}
-
-.social-icons:hover{
-  background-color:var(--color-brown);
-}
-
  /* Responsive */
  @media (max-width: 740px) {
   .subtitle{
     font-size: 2.3rem;
     letter-spacing: 0.3rem;
     margin-bottom: 2rem; 
-  }
-  .resume-button{
-    font-size: .8rem;
-  }
-
-  .resume-button img{
-    width: 12px;
   }
  }
 
@@ -172,12 +114,6 @@ button {
   .subtitle{
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
-  }
-
-  .social-icons img {
-    width: 20px; 
-    height: 20px; 
-    margin: 0.5rem; 
   }
  }
 

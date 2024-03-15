@@ -47,7 +47,7 @@ const ProjectPage = () => {
   return (
     <Reveal>
       <section className="project-page">
-        <h1 className="subtitle">{languageData.projects}</h1>
+        <h1 className="title">{languageData.projects}</h1>
 
         {/* Rendering of project cards */}
         <div className="project-wrapper">

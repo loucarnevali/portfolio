@@ -1,10 +1,10 @@
 import Welcome from '../components/Welcome';
 import Skills from '../components/Skills';
-import About from '../components/About';
 import Projects from '../components/Projects';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Reveal from '../components/Utils/Reveal';
+import AboutSection from '../components/AboutSection';
 
 const HomePage = () => {
   const { hash } = useLocation();
@@ -32,7 +32,7 @@ const HomePage = () => {
       </Reveal>
 
       <Reveal>
-        <About />
+        <AboutSection />
       </Reveal>
     </>
   );

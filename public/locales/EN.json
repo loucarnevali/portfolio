@@ -29,11 +29,32 @@
   "drumKitProject": "Drum Kit ",
 
   "seeMoreProjectsButton": "See all the projects",
+  "moreAboutButton": "More about me",
   "backToHomeButton": "Back to Home",
 
   "aboutMe": "MORE ABOUT ME",
   "aboutIntro": "I'm a fullstack developer building Web Applications that leads to the success of the overall product",
   "aboutDescription": "Since always, I've enjoyed turning complex problems into simple and creative solutions. When I'm not coding, you'll find me cooking, exercising, reading or watching a movie. And along with all of this, you will still find me 'mothering' and raising two beautiful girls. I also like sharing content in Medium Plataform related to the stuff that I'm learning so it can help other people of the dev community. Feel free to connect or follow me on my Linkedin and on Medium. I'm open to job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+
+  "educationTitle": "education",
+  "bacharelTI": "Associate's Degree",
+  "educationDescriptionTI": "Systems Analysis and Development",
+  "educationLocal": "Brazil",
+  "bachelorNutri": "Bachelor's Degree",
+  "educationDescriptionNutri": "Nutrition",
+  "educationLocalNutri": "Cuiabá University | Brazil",
+
+  "otherCourses": "Other Courses",
+  "reactCourse": "React - The Complete Guide 2023",
+  "supportCourse": "Technical Support Fundamentals",
+  "cs50Course": "CS50 - Computer Science",
+
+  "idiomsTitle": "Idioms",
+  "portgueseIdiom": "Portuguese / Native",
+  "englishIdiom": "English / Intermediate",
+  "spanishIdiom": "Spanish / Basic",
+  "frenchIdiom": "French / Basic",
+
   "connectTitle": " let's connect",
   "connectDescription": "Feel free to drop me a line if you need anything, or simply have a chat.",
   "rightsReserved": "All Rights Reserved."
