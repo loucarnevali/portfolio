@@ -38,5 +38,5 @@ Contributions are welcome! If you find any bugs, have suggestions for improvemen
 
 ## Preview
 
-[Insert Preview Image Here]
+![Preview Image](https://github.com/loucarnevali/portfolio/blob/main/public/img/demo-louise.png)
 
