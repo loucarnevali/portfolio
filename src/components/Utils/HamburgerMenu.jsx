@@ -7,7 +7,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => {
       className={`menu-hamburger ${isOpen ? 'open' : ''}`}
       onClick={toggleMenu}
     >
-      <img className="menu-icon" src="/img/menu-icon.svg" alt="Menu Icon" />
+      <img className="menu-icon" src="/img/frame-icon.jpg" alt="Menu Icon" />
 
       {/* Close Menu Button  */}
       {isOpen && (

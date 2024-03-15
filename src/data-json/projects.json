@@ -11,7 +11,7 @@
       "Figma",
       "Responsive"
     ],
-    "image": "/img/projects-img/jokers-burger.svg",
+    "image": "/img/projects-img/jokers-burger.jpg",
     "website": "https://jokers-burger.vercel.app/",
     "github": "https://github.com/loucarnevali/jokers-burger"
   },
@@ -19,7 +19,7 @@
     "id": "2b",
     "title": "Animais Marinhos",
     "technologies": ["HTML", "CSS", "JavaScript", "Responsive"],
-    "image": "/img/projects-img/animais-marinhos.svg",
+    "image": "/img/projects-img/animais-marinhos.jpg",
     "website": "https://loucarnevali.github.io/animais-marinhos/",
     "github": "https://github.com/loucarnevali/animais-marinhos"
   },
@@ -27,7 +27,7 @@
     "id": "3b",
     "title": "Tic-Tac-Toe",
     "technologies": ["HTML", "CSS", "JavaScript", "React - Vite", "Responsive"],
-    "image": "/img/projects-img/tic-tac-toe.svg",
+    "image": "/img/projects-img/tic-tac-toe.jpg",
     "website": "https://loucarnevali.github.io/tic-tac-toe/",
     "github": "https://github.com/loucarnevali/tic-tac-toe"
   },
@@ -35,7 +35,7 @@
     "id": "4b",
     "title": "Drum Kit",
     "technologies": ["HTML", "CSS", "JavaScript", "Responsive"],
-    "image": "/img/projects-img/drum-kit.svg",
+    "image": "/img/projects-img/drum-kit.jpg",
     "website": "https://loucarnevali.github.io/drum-kit/",
     "github": "https://github.com/loucarnevali/drum-kit"
   },
@@ -51,7 +51,7 @@
       "Bootstrap5",
       "Responsive"
     ],
-    "image": "/img/projects-img/signup-newsletter.svg",
+    "image": "/img/projects-img/signup-newsletter.jpg",
     "website": "https://signup-newsletter.onrender.com/",
     "github": "https://github.com/loucarnevali/signup-newsletter"
   },
@@ -68,7 +68,7 @@
       "MongoDB",
       "Mongoose"
     ],
-    "image": "/img/projects-img/todo-list.svg",
+    "image": "/img/projects-img/todo-list.jpg",
     "website": "https://todolist-v2-51h7.onrender.com/",
     "github": "https://github.com/loucarnevali/todolist-v2"
   }

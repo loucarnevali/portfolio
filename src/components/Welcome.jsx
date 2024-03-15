@@ -21,7 +21,7 @@ const Welcome = () => {
       <div className="home-wrapper">
         {/* Profile image */}
         <div className="profile-img">
-          <img src="/img/perfil1.png" alt="" />
+          <img src="/img/perfil1.png" alt="Perfil Photo" />
         </div>
 
         <div className="home-card">

@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .navbar-menu.open{
+    width: 100%;
+  }
+
   .close-button{
     background-color: var(--color-dark-nude);
     }
