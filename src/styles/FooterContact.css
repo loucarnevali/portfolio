@@ -29,6 +29,12 @@
   margin: 0 1rem;
 }
 
+.contact-icons .icons .social-icons img {
+  width: 25px;
+  height: 25px;
+  margin: .8rem;
+}
+
 .footer-bg {
   background-color: #F5F5F5;
   color: var(--color-brown);
@@ -65,6 +71,12 @@
 
   .contact-icons{
     margin-top: 0;
+  }
+
+  .contact-icons .icons .social-icons img {
+    width: 20px; 
+    height: 20px; 
+    margin: 0.5rem; 
   }
 
   .footer-bg{

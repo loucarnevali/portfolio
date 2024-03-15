@@ -2,7 +2,7 @@ import '../../styles/SocialIcons.css';
 
 const SocialIcons = () => {
   return (
-    <div className="home-icons">
+    <div className="icons">
       <ul>
         <li>
           <a

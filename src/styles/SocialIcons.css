@@ -1,8 +1,8 @@
-.home-icons ul{
+.icons ul{
   display: flex;
 }
 
-.home-icons .social-icons img {
+.icons .social-icons img {
   width: 20px;
   height: 20px;
   margin: .5rem;
