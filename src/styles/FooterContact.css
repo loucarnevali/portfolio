@@ -79,6 +79,10 @@
     margin: 0.5rem; 
   }
 
+  .contact-icons li {
+    margin: 0;
+  }
+
   .footer-bg{
     font-size: .8rem;
     padding: .8rem;
