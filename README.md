@@ -14,7 +14,7 @@ As a developer, I've built this personal portfolio website using React (with Vit
 
 ### Navigation:
 - **Home:** The landing page offering a brief introduction and navigation to other sections.
-- **About:** Offers insights into who I am, my interests, and other related topics.
+- **About:** Offers insights into who I am, my degrees, courses and other related topics.
 - **Skills:**  This section provides a glimpse into my background and skills.
 - **Projects:** Explore my showcased projects with ease.
 
@@ -30,7 +30,7 @@ As a developer, I've built this personal portfolio website using React (with Vit
 
 ## Deployment
 
-This portfolio is deployed on Vercel, providing a fast and reliable platform for showcasing my work. Dive in and explore the website [here](#)!
+This portfolio is deployed on Vercel, providing a fast and reliable platform for showcasing my work. Dive in and explore the website [here](https://louisecarnevali.vercel.app/)!
 
 ## Contributing
 
