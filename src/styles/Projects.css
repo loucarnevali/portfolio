@@ -18,6 +18,7 @@
   .slick-prev {
     left: 30px;
     top: 150px;
+    z-index: 50;
   }
 
   .slick-next {

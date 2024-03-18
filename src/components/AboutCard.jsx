@@ -29,8 +29,8 @@ const AboutCard = ({ intro, description }) => {
 
 //PropTypes Validation
 AboutCard.propTypes = {
-  intro: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  intro: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default AboutCard;
