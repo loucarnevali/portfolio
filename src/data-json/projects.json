@@ -1,6 +1,22 @@
 [
   {
-    "id": "1b",
+    "id": "7b",
+    "title": "API - Snap News",
+    "technologies": [
+      "Node.JS",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Bcrypt",
+      "Swagger"
+    ],
+    "image": "/img/projects-img/api-snapnews.svg",
+    "website": "https://api-snapnews.onrender.com/doc/",
+    "github": "https://github.com/loucarnevali/api-snapnews"
+  },
+  {
+    "id": "6b",
     "title": "Joker's Burger",
     "technologies": [
       "HTML",
@@ -16,7 +32,7 @@
     "github": "https://github.com/loucarnevali/jokers-burger"
   },
   {
-    "id": "2b",
+    "id": "5b",
     "title": "Animais Marinhos",
     "technologies": ["HTML", "CSS", "JavaScript", "Responsive"],
     "image": "/img/projects-img/animais-marinhos.svg",
@@ -24,7 +40,7 @@
     "github": "https://github.com/loucarnevali/animais-marinhos"
   },
   {
-    "id": "3b",
+    "id": "4b",
     "title": "Tic-Tac-Toe",
     "technologies": ["HTML", "CSS", "JavaScript", "React - Vite", "Responsive"],
     "image": "/img/projects-img/tic-tac-toe.svg",
@@ -32,7 +48,7 @@
     "github": "https://github.com/loucarnevali/tic-tac-toe"
   },
   {
-    "id": "4b",
+    "id": "3b",
     "title": "Drum Kit",
     "technologies": ["HTML", "CSS", "JavaScript", "Responsive"],
     "image": "/img/projects-img/drum-kit.svg",
@@ -40,7 +56,7 @@
     "github": "https://github.com/loucarnevali/drum-kit"
   },
   {
-    "id": "5b",
+    "id": "2b",
     "title": "Signup Newsletter",
     "technologies": [
       "HTML",
@@ -57,7 +73,7 @@
   },
 
   {
-    "id": "6b ",
+    "id": "1b ",
     "title": "To-do List",
     "technologies": [
       "HTML",
